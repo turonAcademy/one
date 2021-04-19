@@ -22,8 +22,26 @@
     
 # print(freinds)
 
-def info(sq,q,*args):
-    d=args
-    print(type(d))
-info(1,2,33,4,3,)
+# def info(sq,q,**args):
+#     d=args
+#     print(type(d))
+# info(1,2)
+sonlar=list(range(33))
+kvadrat=list(map(lambda x:x*x,sonlar) )
+print(kvadrat)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
